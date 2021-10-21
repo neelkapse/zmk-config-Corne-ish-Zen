@@ -33,40 +33,40 @@
                 default_layer {
                         label = "QWERTY";
                         bindings = <
-&kp ESC      &kp Q        &kp W       &kp E       &kp R         &kp T         &kp Y      &kp U         &kp I       &kp O       &kp P           &kp BKSP
-&kp TAB      &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHIFT F  &kp G         &kp H      &hm RSHIFT J  &hm RGUI K  &hm RALT L  &hm RCTRL QUOT  &kp DEL
-&to NUMBERS  &kp Z        &kp X       &kp C       &kp V         &kp B         &kp N      &kp M         &kp CMMA    &kp DOT     &kp FSLH        &to SYMBOLS
-                                      &mo NUMBER  &mo SYMBOL    &kp SPC       &kp ENTER  &kp DEL       &to QWERTY
+        &kp ESC      &kp Q        &kp W       &kp E       &kp R         &kp T         &kp Y      &kp U         &kp I       &kp O       &kp P           &kp BKSP
+        &kp TAB      &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHIFT F  &kp G         &kp H      &hm RSHIFT J  &hm RGUI K  &hm RALT L  &hm RCTRL QUOT  &kp DEL
+        &to NUMBERS  &kp Z        &kp X       &kp C       &kp V         &kp B         &kp N      &kp M         &kp CMMA    &kp DOT     &kp FSLH        &to SYMBOLS
+                                              &mo NUMBER  &mo SYMBOL    &kp SPC       &kp ENTER  &kp DEL       &to QWERTY
                         >;
                 };
 
                 symbols_layer {
                         label = "SYMBOLS";
                         bindings = <
-&kp ESC     &kp CARET             &kp GRAVE    &kp ASTERISK   &kp TILDE         &none           &kp UNDERSCORE    &kp AMPERSAND    &kp UP                &kp PIPE               &kp MINUS        &kp PLUS
-&kp TAB     &hm LCTRL EXCLAMATION &hm LALT AT  &hm LGUI HASH  &hm LSHIFT DOLLAR &kp PERCENT     &kp EQUAL         &hm RSHIFT LEFT  &hm RGUI DOWN         &hm RALT RIGHT         &hm RCTRL COLON  &kp SEMICOLON
-&to NUMBERS &to CONFIG            &none        &none          &none             &none           &kp LEFT_BRACKET  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET
-                                               &mo NUMBER     &mo SYMBOL        &kp SPC         &kp ENTER         &kp DEL          &to QWERTY
+        &kp ESC     &kp CARET             &kp GRAVE    &kp ASTERISK   &kp TILDE         &none           &kp UNDERSCORE    &kp AMPERSAND    &kp UP                &kp PIPE               &kp MINUS        &kp PLUS
+        &kp TAB     &hm LCTRL EXCLAMATION &hm LALT AT  &hm LGUI HASH  &hm LSHIFT DOLLAR &kp PERCENT     &kp EQUAL         &hm RSHIFT LEFT  &hm RGUI DOWN         &hm RALT RIGHT         &hm RCTRL COLON  &kp SEMICOLON
+        &to NUMBERS &to CONFIG            &none        &none          &none             &none           &kp LEFT_BRACKET  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET
+                                                       &mo NUMBER     &mo SYMBOL        &kp SPC         &kp ENTER         &kp DEL          &to QWERTY
                         >;
                 };
 
                 numbers_layer {
                         label = "NUMBERS";
                         bindings = < 
-&kp ESC      &kp KP_N6  &kp KP_N7  &kp KP_N8   &kp KP_N9   &kp KP_N0     &none      &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
-&kp TAB      &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_N4   &kp KP_N5     &none      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp C_NEXT            &kp C_PLAY_PAUSE
-&to NUMBERS  &none      &none      &kp C       &kp V       &kp DEL       &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP
-                                   &mo NUMBER  &mo SYMBOL  &kp E         &kp ENTER  &kp DEL         &to QWERTY
+        &kp ESC      &kp KP_N6  &kp KP_N7  &kp KP_N8   &kp KP_N9   &kp KP_N0     &none      &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
+        &kp TAB      &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_N4   &kp KP_N5     &none      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp C_NEXT            &kp C_PLAY_PAUSE
+        &to NUMBERS  &none      &none      &kp C       &kp V       &kp DEL       &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP
+                                           &mo NUMBER  &mo SYMBOL  &kp E         &kp ENTER  &kp DEL         &to QWERTY
                         >;
                 };
 
                 config_layer {
                         label = "CONFIG";
                         bindings = <
-   &reset     &none        &none        &none        &none        &none           &none &none &none       &none &none &none 
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &none &none &none       &none &none &none
-   &none      &none        &none        &none        &none        &none           &none &none &none       &none &none &none
-                                        &none        &none        &none           &none &none &to QWERTY
+        &reset     &none        &none        &none        &none        &none           &none &none &none       &none &none &none 
+        &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &none &none &none       &none &none &none
+        &none      &none        &none        &none        &none        &none           &none &none &none       &none &none &none
+                                             &none        &none        &none           &none &none &to QWERTY
                         >;
                 };
         };
