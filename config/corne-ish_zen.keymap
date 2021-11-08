@@ -43,7 +43,7 @@
                 SYMBOL_layer {
                         label = "SYMBOL";
                         bindings = <
-        &kp ESC     &kp CARET             &kp GRAVE    &kp ASTERISK   &kp TILDE         &BACKSLASH      &kp UNDERSCORE    &kp AMPERSAND   &kp UP                &kp PIPE               &kp MINUS        &kp PLUS
+        &kp ESC     &kp CARET             &kp GRAVE    &kp ASTERISK   &kp TILDE         &kp BACKSLASH      &kp UNDERSCORE    &kp AMPERSAND   &kp UP                &kp PIPE               &kp MINUS        &kp PLUS
         &kp TAB     &hm LCTRL EXCLAMATION &hm LALT AT  &hm LGUI HASH  &hm LSHIFT DOLLAR &kp PERCENT     &kp EQUAL         &kp LEFT        &kp DOWN              &kp RIGHT              &kp COLON        &kp SEMICOLON
         &to NUMBER  &to CONFIG            &none        &none          &none             &none           &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET
                                                        &mo NUMBER     &mo SYMBOL        &hm LGUI SPC    &kp ENTER         &kp BACKSPACE   &to QWERTY
