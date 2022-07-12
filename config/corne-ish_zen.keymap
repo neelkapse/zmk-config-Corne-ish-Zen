@@ -8,11 +8,13 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
 
 #define QWERTY 0
 #define SYMBOL 1
 #define NUMBER 2
 #define CONFIG 3
+
 
 / {
         behaviors {
@@ -78,7 +80,7 @@
                 config_layer {
                         label = "CONFIG";
                         bindings = <
-        &reset     &none        &none        &none        &none        &none           &none &none &none       &none &none &none 
+        &reset     &none        &none        &none        &none        &out OUT_TOG    &none &none &none       &none &none &none 
         &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &none &none &none       &none &none &none
         &none      &none        &none        &none        &none        &none           &none &none &none       &none &none &none
                                              &none        &none        &none           &none &none &to QWERTY
